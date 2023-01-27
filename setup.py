@@ -8,8 +8,6 @@ with open('README.md') as readme_file:
 
 requirements = [
     "netcdf4",
-    "brain-score @ git+https://github.com/brain-score/brain-score",
-    "model-tools @ git+https://github.com/brain-score/model-tools",
     "numpy",
     "result_caching @ git+https://github.com/brain-score/result_caching",
     "networkx==1.11",
